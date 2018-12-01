@@ -2,6 +2,8 @@
 
 This Sinatra app just redirects a user to your Slack invite url.
 
+![Slack Invite](images/slack_invite.png)
+
 #### Create a Slack Invite URL
 
 To create a Slack invite url, go into the Slack community you want to create an invite page for.
@@ -12,6 +14,8 @@ To create a Slack invite url, go into the Slack community you want to create an 
 - Set an expiration time for your link. For a community, you might want to make this never expire.
 
 #### Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 This repository has everything you need to deploy to Heroku. After deploying to Heroku, set an environment variable for `SLACK_JOIN_URL` that is the url we just created above.
 

@@ -1,0 +1,6 @@
+{
+  "name": "Slackline",
+  "description": "Community invite page for Slack",
+  "repository": "https://github.com/madebymechanism/slackline",
+  "keywords": ["ruby", "sinatra", "slack"]
+}
